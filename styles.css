@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Nerko;
+    src: url(./NerkoOne-Regular.ttf);
+}
+
 body{
     background-image: url(./shop\ image.jpg);
     background-size: 100%;
@@ -12,6 +17,7 @@ body{
     margin-top: 10%;
     padding: 10px;
     border-radius: 10px;
+    max-width: 500%;
 }
 
 hr{
@@ -34,8 +40,9 @@ hr{
 .title{
     margin-top: 30px;
     letter-spacing: 1px;
-    font-family:sans-serif;
-    font-size: 20px;
+    font-family: "Nerko", "sans-serif";
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .weekdays,
