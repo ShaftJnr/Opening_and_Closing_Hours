@@ -52,6 +52,18 @@ hr{
     font-size: 17px;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+    float: center ;
+    width: 8%;
+}
+
 .location{
     padding: 10px;
+    display: inline-block;
+}
+
+.clearfloat{
+    clear: both;
 }
